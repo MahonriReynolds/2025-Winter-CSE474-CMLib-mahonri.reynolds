@@ -1,7 +1,5 @@
 # Software Quality Assurance Plan (SQAP)
 
-
-
 ## Title Page
 
 **Title of Document:**  
@@ -16,39 +14,30 @@ FoodForward Systems
 **Prepared For:**  
 Bite Me Bistro
 
-**Approved By:**
-> Scott Wood
+**Approved By:**  
+Scott Wood  
+> Signature:  
 > ___
- 
+
 **Authors:**  
 Mahonri Reynolds  
 
 ---
 
-
-
 ## Revision History
 
-| Date | Updates | Version | Author |
-|------|---------|---------|--------|
-| 2025-01-9 | - Initial draft created with sections stubbed | 0.1.0 | Mahonri Reynolds
-|| - Mock company names & related info populated
-|| - Mock app names & related info populated
-|| - Mock app names & related info populated
-| 2025-01-10 | - All major sections in draft outline fully populated | 0.1.1 | Mahonri Reynolds
-|| - Table of Contents links populated
-| 2025-01-11 | - Company and app names changed from My Company and My Grocery App to FoodForward Systems and Kitchen Compass | 0.1.2 | Mahonri Reynolds
-|| - Reworded draft to be more professional
-| 2025-01-11 | - SQAP added to git repository, advanced version to 0.2.0 | 0.2.0 | Mahonri Reynolds
-
-
-
-
-
+| Date       | Updates | Version | Author |
+|------------|---------|---------|--------|
+| 2025-01-09 | Initial draft created with sections stubbed. | 0.0.1 | Mahonri Reynolds |
+|            | Mock company names & related info populated. |         |        |
+|            | Mock app names & related info populated. |         |        |
+| 2025-01-10 | All major sections in draft outline fully populated. | 0.0.2 | Mahonri Reynolds |
+|            | Table of Contents links populated. |         |        |
+| 2025-01-11 | Company and app names changed from My Company and My Grocery App to FoodForward Systems and Kitchen Compass. | 0.0.3 | Mahonri Reynolds |
+|            | Reworded draft to be more professional. |         |        |
+| 2025-01-11 | SQAP added to git repository, advanced version to 0.1.0. | 0.1.0 | Mahonri Reynolds |
 
 ---
-
-
 
 ## Table of Contents
 
@@ -68,12 +57,16 @@ Mahonri Reynolds
 
 ---
 
+## Table of Figures
 
+1. **Figure 1**: Flowchart of the Quality Assurance Process
+
+---
 
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document outlines the Software Quality Assurance Plan (SQAP) for the development and deployment of the Kitchen Compass project. The SQAP defines processes and practices to ensure the delivery of a high-quality app for grocery and meal planning.
+This document outlines the Software Quality Assurance Plan (SQAP) for the development and deployment of the Kitchen Compass project. The SQAP defines processes and practices to ensure the delivery of a high-quality app for grocery and meal planning. This plan aims to integrate seamlessly into existing meal planning workflows, optimizing user experience through streamlined recipe suggestions and automated grocery lists.
 
 ### 1.2 Scope
 The Kitchen Compass app is a mobile solution designed to streamline meal planning. Key features include:
@@ -84,12 +77,10 @@ The Kitchen Compass app is a mobile solution designed to streamline meal plannin
 The SQAP applies to all phases of software development, from design to deployment and maintenance.
 
 ### 1.3 Contract References
-- **Contract ID**: KLD-2786-BJHVG
-- Agreement between FoodForward Systems and Corner Cravings Caf.
+- **Contract ID**: KLD-2786-BJHVG  
+- Agreement between FoodForward Systems and Bite Me Bistro.
 
 ---
-
-
 
 ## 2. Definitions and Acronyms
 
@@ -98,31 +89,28 @@ The SQAP applies to all phases of software development, from design to deploymen
 | **API**      | Application Programming Interface – A set of functions for building and integrating software applications. |
 | **UX/UI**    | User Experience/User Interface – The design and experience aspects of the app. |
 | **CI/CD**    | Continuous Integration/Continuous Deployment – Practices to automate software testing and delivery. |
+| **MVP**      | Minimum Viable Product – A version of the app with enough features to satisfy early adopters and gather feedback. |
+| **Agile**    | A methodology that promotes iterative development and flexible, collaborative workflows. |
 
 ---
-
-
 
 ## 3. References
 
 - IEEE 730-2014 - Standard for Software Quality Assurance Processes
-- Internal Design Document for Kitchen Compass App
+- Internal Design Document for Kitchen Compass App  
+- **Contract ID**: KLD-2786-BJHVG – Agreement between FoodForward Systems and Bite Me Bistro.
 
 ---
-
-
 
 ## 4. Software Quality Assurance Management
 
 ### 4.1 Roles and Responsibilities
-- **Project Manager**: Oversees project delivery and adherence to quality standards.
+- **Project Manager**: Oversees project delivery and ensures quality standards are adhered to.
 - **QA Engineer**: Conducts testing and quality audits.
 - **Developers**: Implement and maintain the app’s features.
-- **Product Owner**: Ensures the app meets customer requirements.
+- **Product Owner**: Ensures the app meets customer requirements and business goals.
 
 ---
-
-
 
 ## 5. Software Quality Assurance Activities
 
@@ -139,8 +127,6 @@ Develop test plans for:
 
 ---
 
-
-
 ## 6. Tools, Techniques, and Methods
 
 - **Tools**: Selenium (testing), Jira (task tracking), Jenkins (CI/CD pipeline).
@@ -148,8 +134,6 @@ Develop test plans for:
 - **Methods**: Automated and manual testing, peer code reviews, continuous integration.
 
 ---
-
-
 
 ## 7. Documentation
 
@@ -159,8 +143,6 @@ The following documents will be maintained:
 - Meeting notes and change requests.
 
 ---
-
-
 
 ## 8. Noncompliance and Corrective Actions
 
@@ -172,19 +154,15 @@ The following documents will be maintained:
 
 ---
 
-
-
 ## 9. Risk Management
 
 Identify potential risks, such as:
-- Feature delivery delays due to technical challenges.
-- Security vulnerabilities in user data handling.
-
-Mitigation strategies will be defined for each identified risk.
+- **Feature Delivery Delays**: Technical challenges may delay feature delivery.
+  - **Mitigation Strategy**: Allocate buffer time in the development schedule, prioritize key features for MVP.
+- **Security Vulnerabilities**: Potential security risks in user data handling.
+  - **Mitigation Strategy**: Conduct regular security audits and use encryption for sensitive data.
 
 ---
-
-
 
 ## 10. SQAP Maintenance and Updates
 
@@ -192,5 +170,3 @@ The SQAP will be reviewed and updated regularly to reflect changes in:
 - Project requirements.
 - Team processes.
 - Toolsets and technologies used in development.
-
----

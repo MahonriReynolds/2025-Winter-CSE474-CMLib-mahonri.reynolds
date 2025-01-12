@@ -36,6 +36,8 @@ Mahonri Reynolds
 | 2025-01-11 | Company and app names changed from My Company and My Grocery App to FoodForward Systems and Kitchen Compass. | 0.0.3 | Mahonri Reynolds |
 |            | Reworded draft to be more professional. |         |        |
 | 2025-01-11 | SQAP added to git repository, advanced version to 0.1.0. | 0.1.0 | Mahonri Reynolds |
+|            | Published SQAP in new branch 'module-01' |         |        |
+|            | Added reference to CONOPS |         |        |
 
 ---
 
@@ -66,7 +68,7 @@ Mahonri Reynolds
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document outlines the Software Quality Assurance Plan (SQAP) for the development and deployment of the Kitchen Compass project. The SQAP defines processes and practices to ensure the delivery of a high-quality app for grocery and meal planning. This plan aims to integrate seamlessly into existing meal planning workflows, optimizing user experience through streamlined recipe suggestions and automated grocery lists.
+This document outlines the Software Quality Assurance Plan (SQAP) for the development and deployment of the Kitchen Compass project. The SQAP defines processes and practices to ensure the delivery of a high-quality app for grocery and meal planning. This plan aims to integrate seamlessly into existing meal planning workflows, optimizing user experience through streamlined recipe suggestions and automated grocery lists. Additionally, the Concept of Operations (CONOPS) document provides a high-level overview of how the Kitchen Compass app will function from a user perspective, and is referenced as a guiding document for system operations.
 
 ### 1.2 Scope
 The Kitchen Compass app is a mobile solution designed to streamline meal planning. Key features include:
